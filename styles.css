@@ -94,7 +94,7 @@ cancel-edit-btn {
 }
 
 #toolbar h4 {
-  margin-bottom: .5rem;
+  margin-bottom: 0.5rem;
 }
 
 #search {
@@ -123,4 +123,32 @@ cancel-edit-btn {
 
 #filter select {
   flex: 1;
+}
+
+.todo {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1rem;
+  border-bottom: 1px solid #ddd;
+  transition: 0.3s;
+}
+
+.todo h3 {
+  flex: 1;
+  font-size: 0.9rem;
+}
+
+.todo button {
+  margin-left: 0.4rem;
+}
+
+.done {
+  background-color: #395169;
+}
+
+.done h3 {
+  color: #fff;
+  text-decoration: line-through;
+  font-style: italic;
 }
